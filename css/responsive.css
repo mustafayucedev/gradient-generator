@@ -1,0 +1,31 @@
+@media screen and (max-width: 425px) {
+    .container {
+        width: 90%;
+    }
+
+    .gradient-title {
+        font-size: 13px;
+    }
+
+    .gradient-options {
+        display: block;
+    }
+
+    .gradient-select {
+        margin-block-end: 20px;
+    }
+
+    .gradient-select .gradient-select-content select {
+        width: 100%;
+        font-size: 13px;
+    }
+
+    .gradient-text textarea {
+        font-size: 13px;
+    }
+
+    .gradient-buttons button {
+        padding: 10px 5px;
+        font-size: 13px;
+    }
+}

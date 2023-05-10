@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient Generator</title>
+    <!-- Style Css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Responsive Css -->
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <div class="container">
+        <div class="gradient-preview"></div>
+        <div class="gradient-options">
+            <div class="gradient-select">
+                <div class="gradient-title">Direction</div>
+                <div class="gradient-select-content">
+                    <select name="" id="">
+                        <option value="to top">Top</option>
+                        <option value="to right top">Right Top</option>
+                        <option value="to right">Right</option>
+                        <option value="to right bottom">Right Bottom</option>
+                        <option value="to bottom">Top</option>
+                        <option value="to left bottom">Left Bottom</option>
+                        <option value="to left">Left</option>
+                        <option value="to left top" selected>Left Top</option>
+                    </select>
+                </div>
+            </div>
+            <div class="gradient-inputs">
+                <div class="gradient-title">Colors</div>
+                <div class="gradient-inputs-content">
+                    <input type="color">
+                    <input type="color">
+                </div>
+            </div>
+        </div>
+        <div class="gradient-text">
+            <textarea disabled></textarea>
+        </div>
+        <div class="gradient-buttons">
+            <button type="button" class="refresh">Refresh Colors</button>
+            <button type="button" class="copy">Copy Code</button>
+        </div>
+    </div>
+
+
+
+    
+    <script src="js/app.js"></script>
+</body>
+</html>

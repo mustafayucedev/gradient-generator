@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+html,body, * {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+}
+
+body {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    height: 100vh;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+}
+
+.gradient-preview {
+    height: 200px;
+    border-radius: 10px;
+    margin-block-end: 20px;
+    background: #000000;
+    border: 1px solid #eaeaea;
+}
+
+.gradient-options {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-block-end: 20px;
+}
+
+.gradient-title {
+    color: #333;
+    font-weight: 600;
+    margin-block-end: 10px;
+}
+
+.gradient-select .gradient-select-content select {
+    border: 1px solid #ddd;
+    height: 40px;
+    width: 150px;
+    color: #333;
+    font-weight: 500;
+    padding-inline: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.gradient-inputs .gradient-inputs-content {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 10px;
+}
+
+.gradient-inputs .gradient-inputs-content input {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    height: 40px;
+}
+
+.gradient-text {
+    margin-block-end: 20px;
+}
+
+.gradient-text textarea {
+    resize: none;
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.gradient-buttons {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+
+.gradient-buttons button {
+    cursor: pointer;
+    flex: 1 0 0;
+    max-width: 100%;
+    padding: 12px 10px;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.gradient-buttons button.refresh {
+    background-color: #764ba2;
+}
+
+.gradient-buttons button.copy {
+    background-color: #667eea;
+}
