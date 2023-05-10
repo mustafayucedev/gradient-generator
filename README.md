@@ -1,5 +1,5 @@
 # Deploy 
 https://gradient-generator-nine.vercel.app/
 
-# Gradiend Generator
+# Gradient Generator
 HTML,CSS and Javascript - Gradient Generator
